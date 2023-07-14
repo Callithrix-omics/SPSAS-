@@ -77,6 +77,6 @@ Corrected command line
     $ artic guppyplex --min-length 400 --max-length 700 --directory fastq_pass/barcode26 --prefix SPSAS_sequencing_data 
 
     $ mkdir output
-    $ artic minion --normalise 200 --threads 2 --scheme-directory  /home/artic/Documents/artic/nCoV19_Manaus_Library87_20210126/primer_schemes --read-file /home/artic/Documents/artic/SPSAS/SPSAS_sequencing_data_.fastq --fast5-directory /home/artic/Documents/artic/SPSAS/fast5/ --sequencing-summary  /home/artic/Documents/artic/nCoV19_Manaus_Library87_20210126/sequencing_summary_FAS96440_ee810178.txt nCoV-2019/V3 output/SPSAS_data
+    $ artic minion --normalise 200 --threads 2 --scheme-directory  /home/artic/Documents/artic/nCoV19_Manaus_Library87_20210126/primer_schemes --read-file /home/artic/Downloads/SPSAS/SPSAS_sequencing_data_barcode26.fastq --fast5-directory /home/artic/Documents/artic/SPSAS/fast5/ --sequencing-summary  /home/artic/Documents/artic/nCoV19_Manaus_Library87_20210126/sequencing_summary_FAS96440_ee810178.txt nCoV-2019/V3 output/SPSAS_data
 
     $ aliview
